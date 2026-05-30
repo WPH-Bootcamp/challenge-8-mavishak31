@@ -3,6 +3,7 @@ import { useState } from 'react';
 import FAQItem from '../ui/FAQItem';
 import { faqs } from '../../data/faq.data';
 import Container from '../ui/Container';
+import consultation from '../../assets/consultation.png';
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -55,7 +56,7 @@ export default function FAQSection() {
             <p className='mb-5'>book a free consultation with our team.</p>
 
             <img
-              src='/src/assets/consultation.png'
+              src={consultation}
               alt='meeting'
               className='rounded-xl mb-4 w-full'
             />
