@@ -1,4 +1,7 @@
 import type { ITestimonial } from '../types';
+import johnlee from '../assets/johnlee.png';
+import sarahtan from '../assets/sarahtan.png';
+import emilychen from '../assets/emilychen.png';
 
 export const testimonials: ITestimonial[] = [
   {
@@ -8,7 +11,7 @@ export const testimonials: ITestimonial[] = [
     company: 'Innovate Corp',
     message:
       '"A game-changer for our project. They turned our idea into reality efficiently and effectively."',
-    avatar: '../../src/assets/johnlee.png',
+    avatar: johnlee,
     // rating: 5,
   },
   {
@@ -18,7 +21,7 @@ export const testimonials: ITestimonial[] = [
     company: 'Finovate',
     message:
       '"The team delivered exactly what we needed on time and with outstanding quality."',
-    avatar: '../../src/assets/sarahtan.png',
+    avatar: sarahtan,
     // rating: 5,
   },
   {
@@ -28,7 +31,7 @@ export const testimonials: ITestimonial[] = [
     company: 'TechSphere',
     message:
       '"The collaboration was seamless. Their expertise truly helped us succeed."',
-    avatar: '../../src/assets/emilychen.png',
+    avatar: emilychen,
     // rating: 5,
   },
 ];
