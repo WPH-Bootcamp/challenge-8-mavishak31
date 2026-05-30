@@ -8,7 +8,7 @@ export const testimonials: ITestimonial[] = [
     company: 'Innovate Corp',
     message:
       '"A game-changer for our project. They turned our idea into reality efficiently and effectively."',
-    avatar: '/src/assets/johnlee.png',
+    avatar: '../../src/assets/johnlee.png',
     // rating: 5,
   },
   {
@@ -18,7 +18,7 @@ export const testimonials: ITestimonial[] = [
     company: 'Finovate',
     message:
       '"The team delivered exactly what we needed on time and with outstanding quality."',
-    avatar: '/src/assets/sarahtan.png',
+    avatar: '../../src/assets/sarahtan.png',
     // rating: 5,
   },
   {
@@ -28,7 +28,7 @@ export const testimonials: ITestimonial[] = [
     company: 'TechSphere',
     message:
       '"The collaboration was seamless. Their expertise truly helped us succeed."',
-    avatar: '/src/assets/emilychen.png',
+    avatar: '../../src/assets/emilychen.png',
     // rating: 5,
   },
 ];
